@@ -1,0 +1,276 @@
+.fill {
+    position: relative;
+    height: 100%;
+    width: 90%;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    background: white;
+}
+header {
+    display: flex;
+    max-height: 48px;
+    padding: 8px 8px 8.8px 8px;
+    
+    border-bottom: 0.8px solid rgba(159, 173, 188, 0.16);
+    background: #1D2125;
+    gap: 300px;
+}
+.left {
+    display: flex;
+    gap: 40px;
+}
+.left-left {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.left-left-2 {
+    display: flex;
+    gap: 40px;
+    color: #9FADBC;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 232.2% */
+}
+
+.header-btn {
+    color: #1D2125;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    background-color: rgb(96, 96, 230);
+    border-radius: 1px;
+    padding: 0px 17px;
+
+}
+
+
+.menu {
+    width: 22%;
+    border-bottom: 0.8px solid rgba(159, 173, 188, 0.16);
+    background: #1D2125;
+    height: 632px;
+
+    
+}
+.input {
+    display: flex;
+    gap: 20px;
+    width: 200px;
+    font-size: 20px;
+    align-items: flex-start;
+    border-radius: 5px;
+    border: 1px solid rgba(166, 197, 226, 0.16);
+    background: #22272B;
+     color: #8C9BAB;
+}
+.right {
+    display: flex;
+    gap: 0px;
+    
+}
+.empty {
+    display: inline-block;
+    height: 100%;
+    min-height: 160px;
+    width: 100%;
+    margin: 10px;
+    border: 3px #F4F5F7 solid;
+    background-color: #F4F5F7;
+}
+
+.hold {
+    cursor: pointer;
+    border: solid #ccc 4px;
+}
+
+.hovered {
+    background: gray;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+.verx {
+    display: flex;
+    
+}
+
+.p {
+    padding: 30px 10px 1px 30px;
+
+}
+
+.text span {
+    color: #9FADBC;
+
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+}
+.text p {
+    color: #9FADBC;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding:15px 0px 1px 5px ;
+}
+
+.nazad {
+    padding:35px 0px 1px 5px ;
+}
+.menucha {
+    padding: 30px ;
+    color: #9FADBC;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.div {
+    display: flex;
+    gap: 20px;
+}
+
+.doska {
+    display: flex;
+    gap: 17px;
+    padding:10px 30px 10px 0px ;
+}
+
+.uchastnik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    
+}
+.nastroyka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding:10px 30px 10px 30px ;
+}
+.moi {
+    padding: 2px 30px 0px 32px;
+    display: flex;
+    gap: 170px;
+    color: #9FADBC;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.desk {
+    background-color: 
+    
+    rgb(141, 56, 97);
+    width: 77.3%;
+    height: 50px;
+    position: absolute;
+    top:62px ;
+    right: 7px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    
+    align-items: center;
+   justify-content: space-between;
+}
+
+.lift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.rig {
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.container {
+    background-color:rgba(205, 90, 145, 1) ;
+    width: 1174px;
+    height: 597px;
+    position: absolute;
+    top:109px ;
+    right: 7px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.impty {
+    width: 20%;
+    height: fit-content;
+    padding: 20px 30px;
+    background-color: rgba(16, 18, 4, 1);
+    
+    flex-direction: column;
+    gap: 10px;
+}
+.ffil {
+    
+    height: 100%;
+    width: 90%;
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background: white;
+}
+
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.modal input {
+     width: 50%;
+     padding: 20px;
+     color: black;
+
+}
+
+
+.next {
+    width:20% ;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+}
+
+.close {
+    width:20% ;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+}
